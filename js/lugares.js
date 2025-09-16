@@ -109,7 +109,7 @@ const lugaresCoords = {
 
 
 
-fetch('./json/mapa.json')
+fetch('../json/mapa.json')
   .then(response => response.json())
   .then(lugares => {
     const lista = document.getElementById('lista-lugares');

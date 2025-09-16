@@ -1,5 +1,5 @@
 
-const imageUrl = './imagenes/mapa.png';
+const imageUrl = '../imagenes/mapa.png';
 const imageWidth = 1200;
 const imageHeight = 800;
 
@@ -25,7 +25,7 @@ map.on('click', function(e) {
     .openOn(map);
 });
 
-fetch('json/mapa.json')
+fetch('../json/mapa.json')
   .then(response => response.json())
   .then(lugares => {
  
